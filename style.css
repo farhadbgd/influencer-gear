@@ -3,10 +3,22 @@
     padding: 0;
 }
 
+body {
+    width: 1667px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
 /* header styles */
 header {
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+
 }
 
 .logo {
@@ -43,4 +55,27 @@ header {
 
 .menu ul li a {
     text-decoration: none;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+
+}
+
+.half-width {
+    width: 50%;
+}
+
+.main-article,
+.camera {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    height: 400px;
+    width: 414px;
+    text-align: center;
+    justify-content: center;
+
+
 }
