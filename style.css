@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header styles */
+header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu-search-scart {
+    display: flex;
+    align-items: center;
+}
+
+.menu {}
+
+.menu ul {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+}
+
+.menu ul li {
+    list-style-type: none;
+    padding: 25px;
+
+}
+
+.icon span {
+    padding: 20px;
+    font-size: 16px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+}
